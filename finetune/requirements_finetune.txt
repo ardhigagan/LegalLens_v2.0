@@ -1,0 +1,16 @@
+# Phase 3 Fine-tuning requirements
+# Install with: pip install -r requirements_finetune.txt
+
+# Core training
+transformers>=4.38.0,<4.50.0
+peft>=0.10.0                    # LoRA / parameter-efficient fine-tuning
+torch>=2.1.0
+datasets>=2.18.0                # HuggingFace datasets (CUAD)
+
+# Evaluation
+scikit-learn>=1.4.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Utilities
+accelerate>=0.27.0              # Required by Trainer

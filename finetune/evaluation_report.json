@@ -1,0 +1,209 @@
+{
+  "zero_shot": {
+    "model": "Zero-shot bart-large-mnli (baseline)",
+    "f1_micro": 0.115,
+    "f1_macro": 0.0671,
+    "precision": 0.4366,
+    "recall": 0.0662,
+    "roc_auc": NaN,
+    "per_label": {
+      "Financial Penalty": {
+        "f1": 0.062,
+        "precision": 1.0,
+        "recall": 0.032,
+        "support": 31
+      },
+      "Privacy Violation": {
+        "f1": 0.057,
+        "precision": 1.0,
+        "recall": 0.029,
+        "support": 34
+      },
+      "Non-Compete Restriction": {
+        "f1": 0.24,
+        "precision": 0.375,
+        "recall": 0.176,
+        "support": 17
+      },
+      "Termination Without Cause": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 32
+      },
+      "Intellectual Property Transfer": {
+        "f1": 0.039,
+        "precision": 1.0,
+        "recall": 0.02,
+        "support": 50
+      },
+      "Indemnification Obligation": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 26
+      },
+      "Limitation of Liability": {
+        "f1": 0.138,
+        "precision": 0.444,
+        "recall": 0.082,
+        "support": 49
+      },
+      "Liquidated Damages": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 11
+      },
+      "Governing Law Restriction": {
+        "f1": 0.085,
+        "precision": 1.0,
+        "recall": 0.044,
+        "support": 68
+      },
+      "Non-Disparagement Clause": {
+        "f1": 0.133,
+        "precision": 0.111,
+        "recall": 0.167,
+        "support": 6
+      },
+      "Exclusivity Obligation": {
+        "f1": 0.286,
+        "precision": 0.6,
+        "recall": 0.188,
+        "support": 32
+      },
+      "Data Sharing with Third Parties": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 3
+      },
+      "Penalty for Early Termination": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 37
+      },
+      "Warranty Disclaimer": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 13
+      },
+      "Assignment of Rights": {
+        "f1": 0.301,
+        "precision": 0.786,
+        "recall": 0.186,
+        "support": 59
+      }
+    }
+  },
+  "fine_tuned": {
+    "model": "Fine-tuned legal-bert (LoRA)",
+    "f1_micro": 0.6286,
+    "f1_macro": 0.2445,
+    "precision": 0.6471,
+    "recall": 0.6111,
+    "roc_auc": NaN,
+    "per_label": {
+      "Financial Penalty": {
+        "f1": 0.574,
+        "precision": 0.403,
+        "recall": 1.0,
+        "support": 31
+      },
+      "Privacy Violation": {
+        "f1": 0.379,
+        "precision": 0.458,
+        "recall": 0.324,
+        "support": 34
+      },
+      "Non-Compete Restriction": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 17
+      },
+      "Termination Without Cause": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 32
+      },
+      "Intellectual Property Transfer": {
+        "f1": 0.787,
+        "precision": 0.649,
+        "recall": 1.0,
+        "support": 50
+      },
+      "Indemnification Obligation": {
+        "f1": 0.074,
+        "precision": 1.0,
+        "recall": 0.038,
+        "support": 26
+      },
+      "Limitation of Liability": {
+        "f1": 0.778,
+        "precision": 0.636,
+        "recall": 1.0,
+        "support": 49
+      },
+      "Liquidated Damages": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 11
+      },
+      "Governing Law Restriction": {
+        "f1": 0.938,
+        "precision": 0.883,
+        "recall": 1.0,
+        "support": 68
+      },
+      "Non-Disparagement Clause": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 6
+      },
+      "Exclusivity Obligation": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 32
+      },
+      "Data Sharing with Third Parties": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 3
+      },
+      "Penalty for Early Termination": {
+        "f1": 0.493,
+        "precision": 0.531,
+        "recall": 0.459,
+        "support": 37
+      },
+      "Warranty Disclaimer": {
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "support": 13
+      },
+      "Assignment of Rights": {
+        "f1": 0.868,
+        "precision": 0.766,
+        "recall": 1.0,
+        "support": 59
+      }
+    }
+  },
+  "improvement": {
+    "f1_micro": 0.5136,
+    "f1_macro": 0.1774,
+    "precision": 0.2105,
+    "recall": 0.5449,
+    "roc_auc": NaN
+  }
+}
