@@ -5,6 +5,7 @@ streamlit>=1.32.0
 
 # ── AI / ML ─────────────────────────────────
 transformers>=4.38.0,<4.50.0
+peft>=0.10.0                    # LoRA model support (optional)
 torch>=2.1.0
 sentence-transformers>=2.6.0      # Embeddings for RAG
 anthropic>=0.25.0                  # Claude API for RAG chat (optional)
