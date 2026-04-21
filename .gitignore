@@ -4,15 +4,7 @@ __pycache__/
 *.pyo
 .env
 .DS_Store
-
-# Fine-tuned model (too large for git — upload separately to HF Model Hub)
 finetune/models/
 finetune/data/
-finetune/__pycache__/
-
-# Streamlit cache
-.streamlit/
-
-# Logs
 *.log
-logs/
+evaluation_report.json
